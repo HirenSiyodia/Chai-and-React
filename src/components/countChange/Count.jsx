@@ -16,7 +16,7 @@ function Count() {
   return (
     <>
       <h1>Vite + React</h1>
-      <div className="card">
+
         <button onClick={addNum}>
           + 
         </button>
@@ -24,10 +24,10 @@ function Count() {
         <button onClick={minusNum}>
           - 
         </button>
-      </div>
-      <p className="border-4 border-blue-500 p-1 bg-yellow-300 text-black rounded-lg text-green">
+
+      {/* <p className="border-4 border-blue-500 p-1 bg-yellow-300 text-black rounded-lg text-green">
         Counter for using useState.
-      </p>
+      </p> */}
     </>
   )
 }
